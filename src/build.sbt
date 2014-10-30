@@ -6,6 +6,8 @@ version := "0.0.2"
 
 libraryDependencies += "org.apache.spark" % "spark-core_2.10" % "1.1.0" % "provided"
 
+libraryDependencies += "org.apache.spark" %% "spark-mllib" % "1.1.0" % "provided"
+
 libraryDependencies += "org.scalatest" % "scalatest_2.10" % "2.1.3" % "test"
 
 libraryDependencies += "org.apache.commons" % "commons-math3" % "3.2"
